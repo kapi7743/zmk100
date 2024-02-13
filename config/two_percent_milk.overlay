@@ -2,11 +2,11 @@
 
 / {
 chosen {
-        zmk,kscan = &kscan0;
+        zmk,kscan = &kscan4;
         zmk,matrix-transform = <&matrix_transform>;
     };
 
-    kscan0: kscan_0 {
+    kscan4: kscan_0 {
     compatible = "zmk,kscan-gpio-matrix";
     diode-direction = "col2row";
 
